@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newsletter</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
-</head>
-<body>
-    <header class="topo">
-        <div class="container">
-            <h1>Newsletter</h1>
-            <button id="btnTema" class="btn">Alternar tema 🌗</button>
-        </div>
-    </header>
 
-    <main class="container">
-        <section class="caixa">
-            <h2>Inscreva-se</h2>
-            <p>receba novidades do seu email. Sem Spam.</p>
+<html lang="en-US"><!-- the root element -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vacation Chess Club</title>
+        <meta name="author" content="Romulo Goes">
+        <meta name="description" content="A web page for begginers to learn the basics on chess and to know the news from the chess wolrd.">
+    </head>
+    <body>
+        <header>
+             <h1>Vacation Chess Club</h1>
+        </header>
+       
+        <a href="https://www.chess.com" target="_blank"> <img src="../XADREZ-SITE/img/chesscom_wallpaper_1080.png" alt="Logo da Chess.com com link para acesso" /></a>
+        <h2>Menu</h2>
+        <nav>
+            <h3><a href="projects/index.html">Quem Somos</a></h3>
+            <h3><a href="projects/pdfs.html">Livros Úteis</a></h3>
+            <h3><a href="projects/regras_do_xadrez.html">Regras do Xadrez</a></h3>
+            <h3><a href="projects/aprofundamento.html">Aprofundamento</a></h3>
+        </nav>
+        <video controls width="400"
+                height="400"
+                loop
+                muted
+                preload="auto"
+                poster="./img/poster.png">
+                <source src="./img/rabbit320.mp4" type="video/mp4" />
+                <source src="./img/rabbit320.webm" type="video/webm" /> >
+                
+            <p>
+                Seu navegador não suporta esse vídeo HTML. Aqui está o <a href="./img/rabbit320.mp4">
+                    link para o vídeo</a>
+            </p>
+        </video>
+        <audio controls>
+            <source src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/audio.mp3" type="audio/mp3" />
+            <p>
+                Your browser doesn't support this audio file. Here is a
+                <a href="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/audio.mp3">link to the audio</a> instead.
+            </p>
+        </audio>
 
-            <form>
-                <label for="Nome">Nome</label>
-                <input type="text" name="nome" id="nome" placeholder="seu nome">
-
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="nome@email.com">
-
-                <button type="submit" class="btn primario">Quero receber</button>
-            </form>
-        </section>
-    </main>
-
-    <footer class="rodape">
-        <div class="container">
-            <small>Newsletter <span id="ano"></span></small>
-        </div>
-    </footer>
-</body>
+    </body>
 </html>

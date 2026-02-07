@@ -179,3 +179,11 @@ footer img{
         margin: 0 5px;  
     }
 } */
+
+/* celular 576px */
+@media (max-width: 576px) {
+    .html,
+    .body {
+        overflow: hidden;
+    }
+}

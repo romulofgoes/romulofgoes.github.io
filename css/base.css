@@ -11,6 +11,49 @@ body {
     line-height: 1.6;
 }
 
+/* ===== HEADER ===== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    color: #fafafa;
+    padding: 0 1rem;
+}
+
+header a {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #fafafa;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+/* ===== NAV ===== */
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
+
+nav li a {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: #ccc;
+}
+
 /* ===== CONTAINER ===== */
 .page-container {
     max-width: 900px;

@@ -63,34 +63,34 @@ nav li a:hover {
 }
 
 /* ===== TITULOS ===== */
-h1, h2, h3 {
+.page-container h1, .page-container h2, .page-container h3 {
     color: #121212;
 }
 
-h1 {
+.page-container h1 {
     border-bottom: 3px solid #121212;
     padding-bottom: 0.5rem;
 }
 
 /* ===== LINKS ===== */
-a {
+.page-container a {
     color: #121212;
     font-weight: bold;
     text-decoration: none;
 }
 
-a:hover {
+.page-container a:hover {
     color: #555;
     text-decoration: underline;
 }
 
 /* ===== LISTAS ===== */
-ul, ol {
+.page-container ul, ol {
     padding-left: 1.5rem;
 }
 
 /* ===== VOLTAR ===== */
-.back-link {
+.page-container .back-link {
     display: inline-block;
     margin-top: 2rem;
 }

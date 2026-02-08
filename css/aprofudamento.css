@@ -1,0 +1,13 @@
+/* ===== MENU ===== */
+.menu-list a {
+    display: block;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    background-color: #121212;
+    color: #fafafa;
+    text-align: center;
+}
+
+.menu-list a:hover {
+    background-color: #333;
+}

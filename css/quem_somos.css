@@ -1,0 +1,22 @@
+/* ===== SUMÁRIO ===== */
+.summary {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-left: 4px solid #121212;
+    padding-left: 2rem;
+}
+
+.summary li {
+    margin-bottom: 0.4rem;
+    
+}
+
+/* ===== TEXTO ===== */
+section {
+    margin-bottom: 2rem;
+}
+
+section p {
+    text-align: justify;
+}

@@ -1,83 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>VCC - Regras do Xadrez</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estocado Peixe - Regras do Xadrez</title>
+    <link rel="stylesheet" href="../css/regras.css">
+    <link rel="stylesheet" href="../css/base.css">
+</head> 
+
+<body>
+    <div class="page-container">
         <h1>Regras do Xadrez</h1>
-    <p>No xadrez, jogam dois jogadores controlando um pelotão de quantidade igual. São 8 peões, 2 Torres, 2 Cavalos, 2 Bispos, a Dama e o Rei. As jogadas de cada um são consecutivas. Ou seja, não se pode passar a vez.
-        Ressalta-se ainda, as brancas começam.
-    </p>
-    <p>Como disse Bobby Fischer, <q>I like the moment when I break a man's ego</q>. Vamos ver as regras para você poder quebrar o ego de alguns dos seus oponentes.</p>
-    <ul>
-        <li><a href="#o-tabuleiro">O tabuleiro</a></li>
-        <li><a href="#as-pecas">As peças</a></li>
-        <li><a href="#regas-especiais">Regras Especiais</a></li>
-    </ul>
-    <h2 id="o-tabuleiro">O tabuleiro</h2>
-    <p>
-        O tabuleiro é constituído de 8 colunas e 8 fileiras formando um quadriculado de 64 caixas.
-        Cada uma dessas posições é identificada pela sua respectiva coluna e fileira. As colunas vão de "a" à "e" e
-            as fileiras de 1 à 8. É indispensável considerar que à direita de ambos os jogadores fica a "caixa" mais clara. 
-            Esta é a caixa h1 para as brancas e, no lado das peças pretas, à direita do jogador dessas peças está a caixa a8.
-            Não se preocupe muito, por enquanto, com as posições no tabuleiro. O mais importante é considerar que à direita fica a caixa clara
-            e que as peças brancas ficam no que seria identificado como as filas 1 e 2 e que as pretas ficam subsequentemente nas fileiras
+        <p>No xadrez, jogam dois jogadores controlando um pelotão de quantidade igual. São 8 peões, 2 Torres, 2 Cavalos,
+            2 Bispos, a Dama e o Rei. As jogadas de cada um são consecutivas. Ou seja, não se pode passar a vez.
+            Ressalta-se ainda, as brancas começam.
+        </p>
+        <p>Como disse Bobby Fischer, <q>I like the moment when I break a man's ego</q>. Vamos ver as regras para você
+            poder quebrar o ego de alguns dos seus oponentes.</p>
+        <ul>
+            <li><a href="#o-tabuleiro">O tabuleiro</a></li>
+            <li><a href="#as-pecas">As peças</a></li>
+            <li><a href="#regas-especiais">Regras Especiais</a></li>
+        </ul>
+        <h2 id="o-tabuleiro">O tabuleiro</h2>
+        <p>
+            O tabuleiro é constituído de 8 colunas e 8 fileiras formando um quadriculado de 64 caixas.
+            Cada uma dessas posições é identificada pela sua respectiva coluna e fileira. As colunas vão de "a" à "e" e
+            as fileiras de 1 à 8. É indispensável considerar que à direita de ambos os jogadores fica a "caixa" mais
+            clara.
+            Esta é a caixa h1 para as brancas e, no lado das peças pretas, à direita do jogador dessas peças está a
+            caixa a8.
+            Não se preocupe muito, por enquanto, com as posições no tabuleiro. O mais importante é considerar que à
+            direita fica a caixa clara
+            e que as peças brancas ficam no que seria identificado como as filas 1 e 2 e que as pretas ficam
+            subsequentemente nas fileiras
             identificadas como 7 e 8.
-            
+
         </p>
         <h2 id="as-pecas">As peças</h2>
         <blockquote cite="https://archive.org/details/playwinningchess0000yass/page/12/mode/2up">
             <p>&quot;At last, you are ready to learn how to move the pieces! You will be
-            surprised at just how easy it is. When I was in junior high school, a friend
-            of mine learned how to play chess. His mother paid him a classic
-            backhanded compliment, 'That's very good, dear, but it takes years to
-            learn how to play real chess.' Most people share this misconception about
-            the difficulty of chess. Although it is true that chess is a hard game to
-            master, you'll have no problem at all learning the rules and enjoying the
-            game right away.&quot;<p>
-            </blockquote>
-            <p><em>Yasser Seirawan, Play Winning Chess</em></p>
-            <p>As peças e os peões formam o exército de mesmo quantitivo para ambos os lados que serão usados
-                pelos jogadores para dominarem ou serem dominados durante a partida. A captura é feita quando uma peça move-se para a posição de uma peça 
-                do oponente.
-                As peças são:
-                <dl>
-                    <dt>Peões</dt>
-                    <dd>Vale 1 ponto</dd>
-                    <dd>Move-se somente uma casa por vez, sempre para frente. E ameaça/captura peças pela diagonal imediata. Exemplo, um peão em e4 ameaça d5 e f5.</dd>
-                    <dt>Torre</dt>
-                    <dd>Vale 5 pontos. </dd>
-                    <dd>Move-se quantas casas estiverem vazias(e até uma peça inimiga) para frente, para trás e para os lados, em linha reta.
-                    </dd>
-                    <dt>Cavalo</dt>
-                    <dd>Vale 3 pontos</dd>
-                    <dd>Como única peça cujo movimento tem total desconsideração pelas peças amigas ou inimigas, o cavalo "pula" em L. 
-                        Assim, sua movimentação consiste em uma hipotenusa de 2 casas e 1 casa como seus catetos. Ou seja, numa casa central do tabuleiro, e.g. e4, cavalaria teria como opções 8 casas(d6, d2, f6, f2, g3, g5, b3, b5) para se postar. Pode pular peças, contudo a casa de destino não pode ter peça amiga.
-                    </dd>
-                    <dt>Bispo</dt>
-                    <dd>Vale 3 pontos</dd>
-                    <dd>Move-se em diagonal pelas casas vazias e até um elemento do exército inimigo(capturando-o ao repousar em seu lugar). Informação importante que é naturalmente percebida ao jogar com o bispo.
-                        Sua movimentação restringe-se sempre a uma casa de mesma cor do início da partida. Portanto, o bispo de casas claras foi o que começou numa casa clara e o bispo de casas pretas... acho que você entendeu.
-                    </dd>
-                    <dt>Dama</dt>
-                    <dd>Vale 9 pontos!</dd>
-                    <dd>Você não vai querer perder sua dama tão cedo. Essa valiosa companhia do Rei, sempre posicionada na casa de coluna d(d1 para as brancas, d8 para as pretas),
-                        é capaz de movimentar-se como uma torre e bispo combinados. Move-se em diagonal de linha reta para trás e para os lados. Vai até onde estiver uma peça amiga ou capturando uma inimiga.
-                        Não é capaz de movimentar-se como um cavalo, de fato, mas sua utilidade é geralmente notada até por iniciantes.
-                    </dd>
-                    <dt>Rei</dt>
-                    <dd>Vale o jogo</dd>
-                    <dd>O objetivo do jogo é o Cheque Mate. Isso acontece quando o Rei já não tem mais para onde correr nem peças para a capturar a peça que ameaça ou defender a ameaça feita.
-                        O cheque mate é a derrota do Rei cercado e a vitória <em>gloriosa</em> do Rei rival e do seu exército. Mas, caso ainda haja casas para escapar de um cheque, ou por desejo do jogador, o Rei move-se em qualque direção, como a dama,
-                        mas somente uma casa por vez. O Rei sempre deve encontrar subterfúgios ao cheque inimigo. Não se pode seguir a uma próxima jogada com o Rei cheque. Além disso, também o Rei, que pode servir de auxílio a ofensiva da sua tropa, principalmente nos fins de jogo, jamais pode capturar
-                        uma peça defendida por outra pois implicaria em Cheque. As outras peças, porém, não tem essa objeção.
-                    </dd>
-                </dl>
-            </p>
-        <h2 id="regras-especiais">Regras Especiais</h2>
+                surprised at just how easy it is. When I was in junior high school, a friend
+                of mine learned how to play chess. His mother paid him a classic
+                backhanded compliment, 'That's very good, dear, but it takes years to
+                learn how to play real chess.' Most people share this misconception about
+                the difficulty of chess. Although it is true that chess is a hard game to
+                master, you'll have no problem at all learning the rules and enjoying the
+                game right away.&quot;
+            <p>
+        </blockquote>
+        <p><em>Yasser Seirawan, Play Winning Chess</em></p>
+        <p>As peças e os peões formam o exército de mesmo quantitivo para ambos os lados que serão usados
+            pelos jogadores para dominarem ou serem dominados durante a partida. A captura é feita quando uma peça
+            move-se para a posição de uma peça
+            do oponente.
+            As peças são:
+        <dl>
+            <dt>Peões</dt>
+            <dd>Vale 1 ponto</dd>
+            <dd>Move-se somente uma casa por vez, sempre para frente. E ameaça/captura peças pela diagonal imediata.
+                Exemplo, um peão em e4 ameaça d5 e f5.</dd>
+            <dt>Torre</dt>
+            <dd>Vale 5 pontos. </dd>
+            <dd>Move-se quantas casas estiverem vazias(e até uma peça inimiga) para frente, para trás e para os lados,
+                em linha reta.
+            </dd>
+            <dt>Cavalo</dt>
+            <dd>Vale 3 pontos</dd>
+            <dd>Como única peça cujo movimento tem total desconsideração pelas peças amigas ou inimigas, o cavalo "pula"
+                em L.
+                Assim, sua movimentação consiste em uma hipotenusa de 2 casas e 1 casa como seus catetos. Ou seja, numa
+                casa central do tabuleiro, e.g. e4, cavalaria teria como opções 8 casas(d6, d2, f6, f2, g3, g5, b3, b5)
+                para se postar. Pode pular peças, contudo a casa de destino não pode ter peça amiga.
+            </dd>
+            <dt>Bispo</dt>
+            <dd>Vale 3 pontos</dd>
+            <dd>Move-se em diagonal pelas casas vazias e até um elemento do exército inimigo(capturando-o ao repousar em
+                seu lugar). Informação importante que é naturalmente percebida ao jogar com o bispo.
+                Sua movimentação restringe-se sempre a uma casa de mesma cor do início da partida. Portanto, o bispo de
+                casas claras foi o que começou numa casa clara e o bispo de casas pretas... acho que você entendeu.
+            </dd>
+            <dt>Dama</dt>
+            <dd>Vale 9 pontos!</dd>
+            <dd>Você não vai querer perder sua dama tão cedo. Essa valiosa companhia do Rei, sempre posicionada na casa
+                de coluna d(d1 para as brancas, d8 para as pretas),
+                é capaz de movimentar-se como uma torre e bispo combinados. Move-se em diagonal de linha reta para trás
+                e para os lados. Vai até onde estiver uma peça amiga ou capturando uma inimiga.
+                Não é capaz de movimentar-se como um cavalo, de fato, mas sua utilidade é geralmente notada até por
+                iniciantes.
+            </dd>
+            <dt>Rei</dt>
+            <dd>Vale o jogo</dd>
+            <dd>O objetivo do jogo é o Cheque Mate. Isso acontece quando o Rei já não tem mais para onde correr nem
+                peças para a capturar a peça que ameaça ou defender a ameaça feita.
+                O cheque mate é a derrota do Rei cercado e a vitória <em>gloriosa</em> do Rei rival e do seu exército.
+                Mas, caso ainda haja casas para escapar de um cheque, ou por desejo do jogador, o Rei move-se em qualque
+                direção, como a dama,
+                mas somente uma casa por vez. O Rei sempre deve encontrar subterfúgios ao cheque inimigo. Não se pode
+                seguir a uma próxima jogada com o Rei cheque. Além disso, também o Rei, que pode servir de auxílio a
+                ofensiva da sua tropa, principalmente nos fins de jogo, jamais pode capturar
+                uma peça defendida por outra pois implicaria em Cheque. As outras peças, porém, não tem essa objeção.
+            </dd>
+        </dl>
+        </p>
+        <!-- <h2 id="regras-especiais">Regras Especiais</h2>
             <h3>Promoção do peão</h3>
-            <p>O peão pode </p>
-    </body>
+            <p>O peão pode </p> -->
+        <h4><a href="../index.html">Voltar - Página inicial</a></h4>
+    </div>
+</body>
+
 </html>
